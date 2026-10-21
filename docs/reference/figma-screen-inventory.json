@@ -1,0 +1,2059 @@
+{
+  "fileKey": "WGfzRMh2fq0LkJy5fXgtRq",
+  "scope": "Observed desktop and mobile layer names, node ids, and traveler overlays. Section/container/prototype-guide and Mobile Sheet rows are not full screens.",
+  "documentedScreensPerDevice": 171,
+  "observedScreenCounts": {
+    "Traveler Desktop": 79,
+    "Provider Desktop": 44,
+    "Driver Desktop": 20,
+    "Admin Desktop": 28,
+    "Traveler Mobile": 78,
+    "Provider Mobile": 44,
+    "Driver Mobile": 20,
+    "Admin Mobile": 28
+  },
+  "observedTotals": {
+    "desktop": 171,
+    "mobile": 170
+  },
+  "mobileInventoryNote": "Traveler Desktop contains activitiesFiltered; an equivalent full-screen row was not found in the extracted Traveler Mobile inventory. This is an inventory difference requiring frame-level review, not a proven missing implementation.",
+  "inventories": {
+    "Traveler Desktop": {
+      "portal": "Traveler Desktop",
+      "rows": [
+        {
+          "id": "244:6462",
+          "name": "Travora Section / Shared • Navigation & Help"
+        },
+        {
+          "id": "239:5333",
+          "name": "Travora / platform.services"
+        },
+        {
+          "id": "239:5281",
+          "name": "Travora / platform.portal"
+        },
+        {
+          "id": "244:6461",
+          "name": "Travora Section / Food • Order & Delivery"
+        },
+        {
+          "id": "236:13399",
+          "name": "Travora / client.foodOrderDetails"
+        },
+        {
+          "id": "236:13341",
+          "name": "Travora / client.foodPickupProof"
+        },
+        {
+          "id": "236:12997",
+          "name": "Travora / client.foodTracking"
+        },
+        {
+          "id": "235:4921",
+          "name": "Travora / client.foodCheckout"
+        },
+        {
+          "id": "235:4851",
+          "name": "Travora / client.foodBasket"
+        },
+        {
+          "id": "244:6460",
+          "name": "Travora Section / Guides • Private appointments"
+        },
+        {
+          "id": "235:4512",
+          "name": "Travora / client.guideConfirmed"
+        },
+        {
+          "id": "235:4425",
+          "name": "Travora / client.guideCheckout"
+        },
+        {
+          "id": "233:4525",
+          "name": "Travora / client.guideSlots"
+        },
+        {
+          "id": "233:4455",
+          "name": "Travora / client.guideProfile"
+        },
+        {
+          "id": "233:4380",
+          "name": "Travora / client.guides"
+        },
+        {
+          "id": "244:6459",
+          "name": "Travora Section / Restaurants • Reservations & Support"
+        },
+        {
+          "id": "237:6407",
+          "name": "Travora / client.restaurantCancelled"
+        },
+        {
+          "id": "237:6355",
+          "name": "Travora / client.paymentFailed"
+        },
+        {
+          "id": "237:6290",
+          "name": "Travora / client.refundSubmitted"
+        },
+        {
+          "id": "236:13474",
+          "name": "Travora / client.refundSupport"
+        },
+        {
+          "id": "233:4309",
+          "name": "Travora / client.restaurantConfirmed"
+        },
+        {
+          "id": "232:9480",
+          "name": "Travora / client.restaurantCheckout"
+        },
+        {
+          "id": "232:9400",
+          "name": "Travora / client.restaurantReserve"
+        },
+        {
+          "id": "232:9348",
+          "name": "Travora / client.restaurantMenu"
+        },
+        {
+          "id": "232:9009",
+          "name": "Travora / client.restaurantDetails"
+        },
+        {
+          "id": "230:7816",
+          "name": "Travora / client.restaurants"
+        },
+        {
+          "id": "190:3230",
+          "name": "Travora / activitiesFiltered / أنشطة تاريخية"
+        },
+        {
+          "id": "177:1285",
+          "name": "Desktop / liveTripReplanned"
+        },
+        {
+          "id": "177:1284",
+          "name": "Desktop / offline"
+        },
+        {
+          "id": "177:1283",
+          "name": "Desktop / error401"
+        },
+        {
+          "id": "177:1282",
+          "name": "Desktop / notificationsEmpty"
+        },
+        {
+          "id": "177:1281",
+          "name": "Desktop / favoritesEmpty"
+        },
+        {
+          "id": "177:1280",
+          "name": "Desktop / tripsSaved"
+        },
+        {
+          "id": "177:1279",
+          "name": "Desktop / tripsPast"
+        },
+        {
+          "id": "177:1278",
+          "name": "Desktop / tripsUpcoming"
+        },
+        {
+          "id": "177:1277",
+          "name": "Desktop / bookingCancelledDetail"
+        },
+        {
+          "id": "177:1276",
+          "name": "Desktop / bookingsCancelled"
+        },
+        {
+          "id": "177:1275",
+          "name": "Desktop / paymentFailed"
+        },
+        {
+          "id": "177:1274",
+          "name": "Desktop / checkoutTransport"
+        },
+        {
+          "id": "177:1273",
+          "name": "Desktop / checkoutActivity"
+        },
+        {
+          "id": "177:1272",
+          "name": "Desktop / checkoutLater"
+        },
+        {
+          "id": "177:1271",
+          "name": "Desktop / checkoutWallet"
+        },
+        {
+          "id": "160:1241",
+          "name": "Travora / registerOtp / تفعيل الحساب الجديد"
+        },
+        {
+          "id": "144:41",
+          "name": "Travora / error404 / الصفحة غير موجودة"
+        },
+        {
+          "id": "144:40",
+          "name": "Travora / destinationsFiltered / الوجهات · نتائج البحث"
+        },
+        {
+          "id": "144:39",
+          "name": "Travora / hotelsFiltered / الفنادق · نتائج التصفية"
+        },
+        {
+          "id": "144:38",
+          "name": "Travora / noResults / البحث · لا توجد نتائج"
+        },
+        {
+          "id": "144:37",
+          "name": "Travora / tripsEmpty / رحلاتي · لا توجد رحلات"
+        },
+        {
+          "id": "144:36",
+          "name": "Travora / documents / المستندات والتذاكر"
+        },
+        {
+          "id": "144:35",
+          "name": "Travora / expenses / ميزانية الرحلة"
+        },
+        {
+          "id": "144:34",
+          "name": "Travora / editPlan / تعديل خطة الرحلة"
+        },
+        {
+          "id": "144:33",
+          "name": "Travora / liveTrip / متابعة الرحلة المباشرة"
+        },
+        {
+          "id": "144:32",
+          "name": "Travora / transport / خدمات التنقل"
+        },
+        {
+          "id": "144:31",
+          "name": "Travora / terms / الشروط والأحكام"
+        },
+        {
+          "id": "144:30",
+          "name": "Travora / privacy / سياسة الخصوصية"
+        },
+        {
+          "id": "144:29",
+          "name": "Travora / faq / الأسئلة الشائعة"
+        },
+        {
+          "id": "144:28",
+          "name": "Travora / support / المساعدة والدعم"
+        },
+        {
+          "id": "144:27",
+          "name": "Travora / about / عن Travora"
+        },
+        {
+          "id": "144:26",
+          "name": "Travora / bookings / حجوزاتي"
+        },
+        {
+          "id": "144:25",
+          "name": "Travora / settings / إعدادات الحساب"
+        },
+        {
+          "id": "144:24",
+          "name": "Travora / notifications / الإشعارات"
+        },
+        {
+          "id": "144:23",
+          "name": "Travora / favorites / مفضلاتي"
+        },
+        {
+          "id": "144:22",
+          "name": "Travora / resetPassword / تعيين كلمة مرور جديدة"
+        },
+        {
+          "id": "144:21",
+          "name": "Travora / otp / التحقق من البريد"
+        },
+        {
+          "id": "144:20",
+          "name": "Travora / forgot / استعادة كلمة المرور"
+        },
+        {
+          "id": "144:19",
+          "name": "Travora / register / إنشاء حساب"
+        },
+        {
+          "id": "144:18",
+          "name": "Travora / login / تسجيل الدخول"
+        },
+        {
+          "id": "144:17",
+          "name": "Travora / bookingDetails / تفاصيل الحجز"
+        },
+        {
+          "id": "144:16",
+          "name": "Travora / paymentSuccess / تأكيد الحجز"
+        },
+        {
+          "id": "144:15",
+          "name": "Travora / checkout / إتمام الحجز والدفع"
+        },
+        {
+          "id": "144:14",
+          "name": "Travora / rooms / الغرف المتاحة"
+        },
+        {
+          "id": "144:13",
+          "name": "Travora / hotelDetail / تفاصيل الفندق"
+        },
+        {
+          "id": "144:12",
+          "name": "Travora / activityDetail / تفاصيل النشاط · الأهرامات"
+        },
+        {
+          "id": "144:11",
+          "name": "Travora / destinationDetail / تفاصيل الوجهة · القاهرة"
+        },
+        {
+          "id": "144:10",
+          "name": "Travora / tripDetails / تفاصيل رحلتي"
+        },
+        {
+          "id": "144:9",
+          "name": "Travora / trips / رحلاتي"
+        },
+        {
+          "id": "144:8",
+          "name": "Travora / destinations / اكتشف الوجهات"
+        },
+        {
+          "id": "144:7",
+          "name": "Travora / hotels / الفنادق والإقامات"
+        },
+        {
+          "id": "144:6",
+          "name": "Travora / activities / استكشف الأنشطة"
+        },
+        {
+          "id": "144:5",
+          "name": "Travora / profile / الملف الشخصي"
+        },
+        {
+          "id": "144:4",
+          "name": "Travora / planResult / الخطة الذكية المقترحة"
+        },
+        {
+          "id": "144:3",
+          "name": "Travora / planner / مخطط الرحلة الذكي"
+        },
+        {
+          "id": "144:2",
+          "name": "Travora / home / Desktop scroll viewport"
+        },
+        {
+          "id": "207:2",
+          "name": "Homepage / أقسام الصفحة الرئيسية الكاملة · Editable"
+        }
+      ]
+    },
+    "Provider Desktop": {
+      "portal": "Provider Desktop",
+      "rows": [
+        {
+          "id": "243:1432",
+          "name": "Travora Section / Shared • Navigation & Help"
+        },
+        {
+          "id": "233:11982",
+          "name": "Travora / platform.notifications"
+        },
+        {
+          "id": "233:11952",
+          "name": "Travora / platform.helpSent"
+        },
+        {
+          "id": "233:11905",
+          "name": "Travora / platform.help"
+        },
+        {
+          "id": "233:11875",
+          "name": "Travora / platform.saved"
+        },
+        {
+          "id": "233:11823",
+          "name": "Travora / platform.portal"
+        },
+        {
+          "id": "243:1431",
+          "name": "Travora Section / Transport & Delivery • Fleet & Dispatch"
+        },
+        {
+          "id": "232:8951",
+          "name": "Travora / provider.transportFinance"
+        },
+        {
+          "id": "232:1125",
+          "name": "Travora / provider.deliveryOrderDetails"
+        },
+        {
+          "id": "232:1062",
+          "name": "Travora / provider.transportBookingDetails"
+        },
+        {
+          "id": "231:8324",
+          "name": "Travora / provider.transportDispatch"
+        },
+        {
+          "id": "231:8237",
+          "name": "Travora / provider.transportDriverEdit"
+        },
+        {
+          "id": "231:8181",
+          "name": "Travora / provider.transportFleet"
+        },
+        {
+          "id": "231:8111",
+          "name": "Travora / provider.transportDashboard"
+        },
+        {
+          "id": "243:1430",
+          "name": "Travora Section / Guides • Profile & Availability"
+        },
+        {
+          "id": "232:8891",
+          "name": "Travora / provider.guideFinance"
+        },
+        {
+          "id": "231:7781",
+          "name": "Travora / provider.guideBookingDetails"
+        },
+        {
+          "id": "231:7708",
+          "name": "Travora / provider.guideTours"
+        },
+        {
+          "id": "231:7636",
+          "name": "Travora / provider.guideAvailability"
+        },
+        {
+          "id": "231:7563",
+          "name": "Travora / provider.guideProfile"
+        },
+        {
+          "id": "231:1587",
+          "name": "Travora / provider.guideDashboard"
+        },
+        {
+          "id": "243:1429",
+          "name": "Travora Section / Restaurants • Tables & Menu"
+        },
+        {
+          "id": "232:8827",
+          "name": "Travora / provider.restaurantFinance"
+        },
+        {
+          "id": "231:1526",
+          "name": "Travora / provider.restaurantPreparing"
+        },
+        {
+          "id": "231:1458",
+          "name": "Travora / provider.restaurantOrderDetails"
+        },
+        {
+          "id": "231:1403",
+          "name": "Travora / provider.restaurantOrders"
+        },
+        {
+          "id": "230:7754",
+          "name": "Travora / provider.restaurantReservation"
+        },
+        {
+          "id": "230:7669",
+          "name": "Travora / provider.restaurantAvailability"
+        },
+        {
+          "id": "230:7578",
+          "name": "Travora / provider.restaurantMenuEdit"
+        },
+        {
+          "id": "230:7520",
+          "name": "Travora / provider.restaurantMenu"
+        },
+        {
+          "id": "230:7158",
+          "name": "Travora / provider.restaurantDashboard"
+        },
+        {
+          "id": "243:1428",
+          "name": "Travora Section / Partners • Onboarding, Team & Finance"
+        },
+        {
+          "id": "232:8582",
+          "name": "Travora / provider.providerReviews"
+        },
+        {
+          "id": "232:8512",
+          "name": "Travora / provider.providerPayout"
+        },
+        {
+          "id": "232:8429",
+          "name": "Travora / provider.providerFinance"
+        },
+        {
+          "id": "232:8351",
+          "name": "Travora / provider.providerSettings"
+        },
+        {
+          "id": "232:1249",
+          "name": "Travora / provider.providerInvite"
+        },
+        {
+          "id": "232:1189",
+          "name": "Travora / provider.providerTeam"
+        },
+        {
+          "id": "230:1412",
+          "name": "Travora / provider.providerApplication"
+        },
+        {
+          "id": "230:1345",
+          "name": "Travora / provider.providerDocuments"
+        },
+        {
+          "id": "230:1283",
+          "name": "Travora / provider.providerJoin"
+        },
+        {
+          "id": "230:1223",
+          "name": "Travora / provider.providerHub"
+        },
+        {
+          "id": "243:1427",
+          "name": "Travora Section / Hotels • Rooms & Bookings"
+        },
+        {
+          "id": "230:7098",
+          "name": "Travora / provider.hotelCheckin"
+        },
+        {
+          "id": "230:7022",
+          "name": "Travora / provider.hotelBookingDetails"
+        },
+        {
+          "id": "230:6966",
+          "name": "Travora / provider.hotelBookings"
+        },
+        {
+          "id": "227:5150",
+          "name": "Travora / provider.hotelCalendar"
+        },
+        {
+          "id": "227:5057",
+          "name": "Travora / provider.hotelRoomEdit"
+        },
+        {
+          "id": "227:4997",
+          "name": "Travora / provider.hotelRooms"
+        },
+        {
+          "id": "227:4920",
+          "name": "Travora / provider.hotelDashboard"
+        }
+      ]
+    },
+    "Driver Desktop": {
+      "portal": "Driver Desktop",
+      "rows": [
+        {
+          "id": "244:8554",
+          "name": "Travora Section / Shared • Navigation & Help"
+        },
+        {
+          "id": "233:12333",
+          "name": "Travora / platform.notifications"
+        },
+        {
+          "id": "233:12303",
+          "name": "Travora / platform.helpSent"
+        },
+        {
+          "id": "233:12257",
+          "name": "Travora / platform.help"
+        },
+        {
+          "id": "233:12227",
+          "name": "Travora / platform.saved"
+        },
+        {
+          "id": "233:12175",
+          "name": "Travora / platform.portal"
+        },
+        {
+          "id": "244:8553",
+          "name": "Travora Section / Transport • Pickup & Arrival"
+        },
+        {
+          "id": "236:14785",
+          "name": "Travora / driver.transportCompleted"
+        },
+        {
+          "id": "236:14433",
+          "name": "Travora / driver.transportRoute"
+        },
+        {
+          "id": "236:14089",
+          "name": "Travora / driver.transportPickup"
+        },
+        {
+          "id": "235:12799",
+          "name": "Travora / driver.transportDetails"
+        },
+        {
+          "id": "244:8552",
+          "name": "Travora Section / Driver • Jobs, Delivery & Account"
+        },
+        {
+          "id": "235:12740",
+          "name": "Travora / driver.proofError"
+        },
+        {
+          "id": "235:12663",
+          "name": "Travora / driver.profile"
+        },
+        {
+          "id": "235:12587",
+          "name": "Travora / driver.earnings"
+        },
+        {
+          "id": "233:11253",
+          "name": "Travora / driver.history"
+        },
+        {
+          "id": "233:11184",
+          "name": "Travora / driver.completed"
+        },
+        {
+          "id": "233:11112",
+          "name": "Travora / driver.deliveryProof"
+        },
+        {
+          "id": "233:10773",
+          "name": "Travora / driver.dropoffRoute"
+        },
+        {
+          "id": "232:10286",
+          "name": "Travora / driver.pickupProof"
+        },
+        {
+          "id": "232:9954",
+          "name": "Travora / driver.pickupRoute"
+        },
+        {
+          "id": "232:9614",
+          "name": "Travora / driver.jobDetails"
+        },
+        {
+          "id": "232:9558",
+          "name": "Travora / driver.jobs"
+        }
+      ]
+    },
+    "Admin Desktop": {
+      "portal": "Admin Desktop",
+      "rows": [
+        {
+          "id": "244:9279",
+          "name": "Travora Section / Shared • Navigation & Help"
+        },
+        {
+          "id": "233:12691",
+          "name": "Travora / platform.notifications"
+        },
+        {
+          "id": "233:12661",
+          "name": "Travora / platform.helpSent"
+        },
+        {
+          "id": "233:12615",
+          "name": "Travora / platform.help"
+        },
+        {
+          "id": "231:9436",
+          "name": "Travora / platform.saved"
+        },
+        {
+          "id": "231:9122",
+          "name": "Travora / platform.services"
+        },
+        {
+          "id": "231:9070",
+          "name": "Travora / platform.portal"
+        },
+        {
+          "id": "244:9278",
+          "name": "Travora Section / Finance • Commissions, Settlements & Payouts"
+        },
+        {
+          "id": "231:7901",
+          "name": "Travora / admin.payoutHistory"
+        },
+        {
+          "id": "231:7843",
+          "name": "Travora / admin.payoutRequested"
+        },
+        {
+          "id": "231:2212",
+          "name": "Travora / admin.payout"
+        },
+        {
+          "id": "231:2156",
+          "name": "Travora / admin.payouts"
+        },
+        {
+          "id": "231:2085",
+          "name": "Travora / admin.settlement"
+        },
+        {
+          "id": "231:2018",
+          "name": "Travora / admin.settlements"
+        },
+        {
+          "id": "230:1653",
+          "name": "Travora / admin.commissions"
+        },
+        {
+          "id": "244:9277",
+          "name": "Travora Section / Bookings • Service & Resolution"
+        },
+        {
+          "id": "230:1595",
+          "name": "Travora / admin.disputeResolved"
+        },
+        {
+          "id": "230:1527",
+          "name": "Travora / admin.dispute"
+        },
+        {
+          "id": "230:1471",
+          "name": "Travora / admin.disputes"
+        },
+        {
+          "id": "230:616",
+          "name": "Travora / admin.booking"
+        },
+        {
+          "id": "230:552",
+          "name": "Travora / admin.bookings"
+        },
+        {
+          "id": "244:9276",
+          "name": "Travora Section / Partners • Review & Access"
+        },
+        {
+          "id": "230:489",
+          "name": "Travora / admin.users"
+        },
+        {
+          "id": "230:431",
+          "name": "Travora / admin.applicationNeedsInfo"
+        },
+        {
+          "id": "229:5103",
+          "name": "Travora / admin.applicationApproved"
+        },
+        {
+          "id": "229:5009",
+          "name": "Travora / admin.application"
+        },
+        {
+          "id": "229:4946",
+          "name": "Travora / admin.providers"
+        },
+        {
+          "id": "244:9275",
+          "name": "Travora Section / Admin • Overview, Content & Reports"
+        },
+        {
+          "id": "231:8976",
+          "name": "Travora / admin.settings"
+        },
+        {
+          "id": "231:8912",
+          "name": "Travora / admin.audit"
+        },
+        {
+          "id": "231:8028",
+          "name": "Travora / admin.catalog"
+        },
+        {
+          "id": "231:7957",
+          "name": "Travora / admin.reports"
+        },
+        {
+          "id": "229:4855",
+          "name": "Travora / admin.overview"
+        }
+      ]
+    },
+    "Traveler Overlays": {
+      "portal": "Traveler Overlays",
+      "rows": [
+        {
+          "name": "Overlay / documentPreview"
+        },
+        {
+          "name": "Overlay / favoriteRemoved"
+        },
+        {
+          "name": "Overlay / sortDestinations"
+        },
+        {
+          "name": "Overlay / filtersDestinations"
+        },
+        {
+          "name": "Overlay / sortActivities"
+        },
+        {
+          "name": "Overlay / filtersActivities"
+        },
+        {
+          "name": "Overlay / replanLoading"
+        },
+        {
+          "name": "Overlay / livePlanAccepted"
+        },
+        {
+          "name": "Overlay / expenseDetails"
+        },
+        {
+          "name": "Overlay / navigationRoute"
+        },
+        {
+          "name": "Overlay / trafficDetails"
+        },
+        {
+          "name": "Overlay / uploadDocument / إضافة مستند"
+        },
+        {
+          "name": "Overlay / addExpense / أضف مصروفًا"
+        },
+        {
+          "name": "Overlay / ticket / تذكرة حجزك"
+        },
+        {
+          "name": "Overlay / notificationPreferences / تفضيلات الإشعارات"
+        },
+        {
+          "name": "Overlay / authError / تعذر تسجيل الدخول"
+        },
+        {
+          "name": "Overlay / googleSignIn / الدخول باستخدام Google"
+        },
+        {
+          "name": "Overlay / bookingChange / تعديل حجزك"
+        },
+        {
+          "name": "Overlay / cancelBooking / إلغاء الحجز؟"
+        },
+        {
+          "name": "Overlay / logout / تسجيل الخروج؟"
+        },
+        {
+          "name": "Overlay / faqAnswer / كيف أعدّل رحلتي؟"
+        },
+        {
+          "name": "Overlay / membership / عضويتك في Travora"
+        },
+        {
+          "name": "Overlay / roomAmenities / تفاصيل الغرفة والمرافق"
+        },
+        {
+          "name": "Overlay / inclusions / ما يشمله الحجز"
+        },
+        {
+          "name": "Overlay / cancellationPolicy / سياسة التعديل والإلغاء"
+        },
+        {
+          "name": "Overlay / reviews / تجارب المسافرين"
+        },
+        {
+          "name": "Overlay / share / شارك رحلتك"
+        },
+        {
+          "name": "Overlay / gallery / لحظات من وجهتك"
+        },
+        {
+          "name": "Overlay / editDay / عدّل يومك الأول"
+        },
+        {
+          "name": "Overlay / editProfile / تعديل الملف الشخصي"
+        },
+        {
+          "name": "Overlay / tripNotes / تفاصيل إضافية"
+        },
+        {
+          "name": "Overlay / supportInput / تفاصيل طلب المساعدة"
+        },
+        {
+          "name": "Overlay / paymentForm / بيانات البطاقة"
+        },
+        {
+          "name": "Overlay / travelerDetails / بيانات المسافر"
+        },
+        {
+          "name": "Overlay / authInput / بيانات حسابك"
+        },
+        {
+          "name": "Overlay / paymentProcessing / جارٍ تأكيد حجزك"
+        },
+        {
+          "name": "Overlay / planLoading / نرتب رحلتك الآن"
+        },
+        {
+          "name": "Overlay / bookingCancelled / تم إلغاء الحجز"
+        },
+        {
+          "name": "Overlay / documentAdded / المستند محفوظ"
+        },
+        {
+          "name": "Overlay / expenseAdded / أُضيف المصروف"
+        },
+        {
+          "name": "Overlay / transportConfirm / خيار التنقل جاهز"
+        },
+        {
+          "name": "Overlay / resendCode / أرسلنا رمزًا جديدًا"
+        },
+        {
+          "name": "Overlay / planSaved / تم حفظ خطة الرحلة"
+        },
+        {
+          "name": "Overlay / supportSent / وصل طلبك بنجاح"
+        },
+        {
+          "name": "Overlay / settingsSaved / تم حفظ تفضيلاتك"
+        },
+        {
+          "name": "Overlay / notificationsRead / إشعاراتك محدثة"
+        },
+        {
+          "name": "Overlay / newsletterSuccess / أنت الآن ضمن قائمتنا"
+        },
+        {
+          "name": "Overlay / savedToast / أُضيف إلى المفضلة"
+        },
+        {
+          "name": "Overlay / fullMap / خريطة رحلتك"
+        },
+        {
+          "name": "Overlay / quickNotifications / آخر الإشعارات"
+        },
+        {
+          "name": "Overlay / accountMenu / حسابك في Travora"
+        },
+        {
+          "name": "Overlay / search / ابحث عن رحلتك القادمة"
+        },
+        {
+          "name": "Overlay / filters / خصص نتائج البحث"
+        },
+        {
+          "name": "Overlay / datePicker / تاريخ السفر"
+        },
+        {
+          "name": "Overlay / paymentMethod / طريقة الدفع"
+        },
+        {
+          "name": "Overlay / currency / العملة"
+        },
+        {
+          "name": "Overlay / language / لغة الواجهة"
+        },
+        {
+          "name": "Overlay / tripStatus / حالة الرحلة"
+        },
+        {
+          "name": "Overlay / sort / ترتيب النتائج"
+        },
+        {
+          "name": "Overlay / interestChoice / اهتماماتك"
+        },
+        {
+          "name": "Overlay / transportPicker / وسيلة التنقل"
+        },
+        {
+          "name": "Overlay / hotelType / نوع الإقامة"
+        },
+        {
+          "name": "Overlay / tripStyle / أسلوب الرحلة"
+        },
+        {
+          "name": "Overlay / tripPace / سرعة الرحلة"
+        },
+        {
+          "name": "Overlay / duration / مدة رحلتك"
+        },
+        {
+          "name": "Overlay / budget / ميزانية الرحلة"
+        },
+        {
+          "name": "Overlay / travelers / المسافرون والغرف"
+        },
+        {
+          "name": "Overlay / destinationPicker / اختر وجهتك"
+        }
+      ]
+    },
+    "Traveler Mobile": {
+      "portal": "Traveler Mobile",
+      "rows": [
+        {
+          "id": "244:11415",
+          "name": "Travora Section / Shared • Navigation & Help"
+        },
+        {
+          "id": "244:11414",
+          "name": "Travora Section / Food • Order & Delivery"
+        },
+        {
+          "id": "244:11413",
+          "name": "Travora Section / Guides • Private appointments"
+        },
+        {
+          "id": "244:11412",
+          "name": "Travora Section / Restaurants • Reservations & Support"
+        },
+        {
+          "id": "197:745",
+          "name": "Travora / Mobile prototype guide"
+        },
+        {
+          "id": "197:724",
+          "name": "Mobile Sheet / documentPreview"
+        },
+        {
+          "id": "191:1154",
+          "name": "Mobile Sheet / favoriteRemoved"
+        },
+        {
+          "id": "191:1115",
+          "name": "Mobile Sheet / sortDestinations"
+        },
+        {
+          "id": "191:1081",
+          "name": "Mobile Sheet / filtersDestinations"
+        },
+        {
+          "id": "239:7525",
+          "name": "Travora / platform.services"
+        },
+        {
+          "id": "239:7479",
+          "name": "Travora / platform.portal"
+        },
+        {
+          "id": "236:13945",
+          "name": "Travora / client.foodOrderDetails"
+        },
+        {
+          "id": "236:13889",
+          "name": "Travora / client.foodPickupProof"
+        },
+        {
+          "id": "236:13547",
+          "name": "Travora / client.foodTracking"
+        },
+        {
+          "id": "235:12509",
+          "name": "Travora / client.foodCheckout"
+        },
+        {
+          "id": "235:12441",
+          "name": "Travora / client.foodBasket"
+        },
+        {
+          "id": "235:12104",
+          "name": "Travora / client.guideConfirmed"
+        },
+        {
+          "id": "235:12019",
+          "name": "Travora / client.guideCheckout"
+        },
+        {
+          "id": "233:10702",
+          "name": "Travora / client.guideSlots"
+        },
+        {
+          "id": "233:10634",
+          "name": "Travora / client.guideProfile"
+        },
+        {
+          "id": "233:10561",
+          "name": "Travora / client.guides"
+        },
+        {
+          "id": "237:9725",
+          "name": "Travora / client.restaurantCancelled"
+        },
+        {
+          "id": "237:9675",
+          "name": "Travora / client.paymentFailed"
+        },
+        {
+          "id": "237:9612",
+          "name": "Travora / client.refundSubmitted"
+        },
+        {
+          "id": "236:14018",
+          "name": "Travora / client.refundSupport"
+        },
+        {
+          "id": "233:10492",
+          "name": "Travora / client.restaurantConfirmed"
+        },
+        {
+          "id": "232:10823",
+          "name": "Travora / client.restaurantCheckout"
+        },
+        {
+          "id": "232:10745",
+          "name": "Travora / client.restaurantReserve"
+        },
+        {
+          "id": "232:10695",
+          "name": "Travora / client.restaurantMenu"
+        },
+        {
+          "id": "232:10358",
+          "name": "Travora / client.restaurantDetails"
+        },
+        {
+          "id": "230:7916",
+          "name": "Travora / client.restaurants"
+        },
+        {
+          "id": "191:1061",
+          "name": "Mobile Sheet / sortActivities"
+        },
+        {
+          "id": "191:1027",
+          "name": "Mobile Sheet / filtersActivities"
+        },
+        {
+          "id": "181:1625",
+          "name": "Mobile Sheet / livePlanAccepted"
+        },
+        {
+          "id": "181:1604",
+          "name": "Mobile Sheet / expenseDetails"
+        },
+        {
+          "id": "181:1305",
+          "name": "Mobile Sheet / navigationRoute"
+        },
+        {
+          "id": "181:1013",
+          "name": "Mobile Sheet / trafficDetails"
+        },
+        {
+          "id": "181:998",
+          "name": "Mobile Sheet / uploadDocument"
+        },
+        {
+          "id": "181:979",
+          "name": "Mobile Sheet / addExpense"
+        },
+        {
+          "id": "181:959",
+          "name": "Mobile Sheet / ticket"
+        },
+        {
+          "id": "181:940",
+          "name": "Mobile Sheet / notificationPreferences"
+        },
+        {
+          "id": "181:927",
+          "name": "Mobile Sheet / authError"
+        },
+        {
+          "id": "181:907",
+          "name": "Mobile Sheet / googleSignIn"
+        },
+        {
+          "id": "181:890",
+          "name": "Mobile Sheet / bookingChange"
+        },
+        {
+          "id": "181:874",
+          "name": "Mobile Sheet / cancelBooking"
+        },
+        {
+          "id": "181:861",
+          "name": "Mobile Sheet / logout"
+        },
+        {
+          "id": "181:844",
+          "name": "Mobile Sheet / faqAnswer"
+        },
+        {
+          "id": "181:827",
+          "name": "Mobile Sheet / membership"
+        },
+        {
+          "id": "181:810",
+          "name": "Mobile Sheet / roomAmenities"
+        },
+        {
+          "id": "181:793",
+          "name": "Mobile Sheet / inclusions"
+        },
+        {
+          "id": "181:776",
+          "name": "Mobile Sheet / cancellationPolicy"
+        },
+        {
+          "id": "181:750",
+          "name": "Mobile Sheet / reviews"
+        },
+        {
+          "id": "181:732",
+          "name": "Mobile Sheet / share"
+        },
+        {
+          "id": "181:712",
+          "name": "Mobile Sheet / gallery"
+        },
+        {
+          "id": "181:690",
+          "name": "Mobile Sheet / editDay"
+        },
+        {
+          "id": "181:668",
+          "name": "Mobile Sheet / editProfile"
+        },
+        {
+          "id": "181:651",
+          "name": "Mobile Sheet / tripNotes"
+        },
+        {
+          "id": "181:628",
+          "name": "Mobile Sheet / supportInput"
+        },
+        {
+          "id": "181:601",
+          "name": "Mobile Sheet / paymentForm"
+        },
+        {
+          "id": "181:578",
+          "name": "Mobile Sheet / travelerDetails"
+        },
+        {
+          "id": "181:557",
+          "name": "Mobile Sheet / authInput"
+        },
+        {
+          "id": "180:7626",
+          "name": "Mobile Sheet / replanLoading"
+        },
+        {
+          "id": "180:7609",
+          "name": "Mobile Sheet / paymentProcessing"
+        },
+        {
+          "id": "180:7592",
+          "name": "Mobile Sheet / planLoading"
+        },
+        {
+          "id": "180:7577",
+          "name": "Mobile Sheet / bookingCancelled"
+        },
+        {
+          "id": "180:7562",
+          "name": "Mobile Sheet / documentAdded"
+        },
+        {
+          "id": "180:7547",
+          "name": "Mobile Sheet / expenseAdded"
+        },
+        {
+          "id": "180:7532",
+          "name": "Mobile Sheet / transportConfirm"
+        },
+        {
+          "id": "180:7519",
+          "name": "Mobile Sheet / resendCode"
+        },
+        {
+          "id": "180:7504",
+          "name": "Mobile Sheet / planSaved"
+        },
+        {
+          "id": "180:7489",
+          "name": "Mobile Sheet / supportSent"
+        },
+        {
+          "id": "180:7474",
+          "name": "Mobile Sheet / settingsSaved"
+        },
+        {
+          "id": "180:7459",
+          "name": "Mobile Sheet / notificationsRead"
+        },
+        {
+          "id": "180:7446",
+          "name": "Mobile Sheet / newsletterSuccess"
+        },
+        {
+          "id": "180:7431",
+          "name": "Mobile Sheet / savedToast"
+        },
+        {
+          "id": "180:7150",
+          "name": "Mobile Sheet / fullMap"
+        },
+        {
+          "id": "180:7118",
+          "name": "Mobile Sheet / quickNotifications"
+        },
+        {
+          "id": "180:7066",
+          "name": "Mobile Sheet / accountMenu"
+        },
+        {
+          "id": "180:7028",
+          "name": "Mobile Sheet / search"
+        },
+        {
+          "id": "180:7000",
+          "name": "Mobile Sheet / filters"
+        },
+        {
+          "id": "180:6906",
+          "name": "Mobile Sheet / datePicker"
+        },
+        {
+          "id": "180:6891",
+          "name": "Mobile Sheet / paymentMethod"
+        },
+        {
+          "id": "180:6878",
+          "name": "Mobile Sheet / currency"
+        },
+        {
+          "id": "180:6864",
+          "name": "Mobile Sheet / language"
+        },
+        {
+          "id": "180:6842",
+          "name": "Mobile Sheet / tripStatus"
+        },
+        {
+          "id": "180:6825",
+          "name": "Mobile Sheet / sort"
+        },
+        {
+          "id": "180:6806",
+          "name": "Mobile Sheet / interestChoice"
+        },
+        {
+          "id": "180:6791",
+          "name": "Mobile Sheet / transportPicker"
+        },
+        {
+          "id": "180:6776",
+          "name": "Mobile Sheet / hotelType"
+        },
+        {
+          "id": "180:6761",
+          "name": "Mobile Sheet / tripStyle"
+        },
+        {
+          "id": "180:6746",
+          "name": "Mobile Sheet / tripPace"
+        },
+        {
+          "id": "180:6729",
+          "name": "Mobile Sheet / duration"
+        },
+        {
+          "id": "180:6712",
+          "name": "Mobile Sheet / budget"
+        },
+        {
+          "id": "180:6695",
+          "name": "Mobile Sheet / travelers"
+        },
+        {
+          "id": "180:6676",
+          "name": "Mobile Sheet / destinationPicker"
+        },
+        {
+          "id": "177:1341",
+          "name": "Mobile / liveTripReplanned"
+        },
+        {
+          "id": "177:1340",
+          "name": "Mobile / offline"
+        },
+        {
+          "id": "177:1339",
+          "name": "Mobile / error401"
+        },
+        {
+          "id": "177:1338",
+          "name": "Mobile / notificationsEmpty"
+        },
+        {
+          "id": "177:1337",
+          "name": "Mobile / favoritesEmpty"
+        },
+        {
+          "id": "177:1336",
+          "name": "Mobile / tripsSaved"
+        },
+        {
+          "id": "177:1335",
+          "name": "Mobile / tripsPast"
+        },
+        {
+          "id": "177:1334",
+          "name": "Mobile / tripsUpcoming"
+        },
+        {
+          "id": "177:1333",
+          "name": "Mobile / bookingCancelledDetail"
+        },
+        {
+          "id": "177:1332",
+          "name": "Mobile / bookingsCancelled"
+        },
+        {
+          "id": "177:1331",
+          "name": "Mobile / paymentFailed"
+        },
+        {
+          "id": "177:1330",
+          "name": "Mobile / checkoutTransport"
+        },
+        {
+          "id": "177:1329",
+          "name": "Mobile / checkoutActivity"
+        },
+        {
+          "id": "177:1328",
+          "name": "Mobile / checkoutLater"
+        },
+        {
+          "id": "177:1327",
+          "name": "Mobile / checkoutWallet"
+        },
+        {
+          "id": "177:1326",
+          "name": "Mobile / registerOtp"
+        },
+        {
+          "id": "177:1325",
+          "name": "Mobile / error404"
+        },
+        {
+          "id": "177:1324",
+          "name": "Mobile / destinationsFiltered"
+        },
+        {
+          "id": "177:1323",
+          "name": "Mobile / hotelsFiltered"
+        },
+        {
+          "id": "177:1322",
+          "name": "Mobile / noResults"
+        },
+        {
+          "id": "177:1321",
+          "name": "Mobile / tripsEmpty"
+        },
+        {
+          "id": "177:1320",
+          "name": "Mobile / documents"
+        },
+        {
+          "id": "177:1319",
+          "name": "Mobile / expenses"
+        },
+        {
+          "id": "177:1318",
+          "name": "Mobile / editPlan"
+        },
+        {
+          "id": "177:1317",
+          "name": "Mobile / liveTrip"
+        },
+        {
+          "id": "177:1316",
+          "name": "Mobile / transport"
+        },
+        {
+          "id": "177:1315",
+          "name": "Mobile / terms"
+        },
+        {
+          "id": "177:1314",
+          "name": "Mobile / privacy"
+        },
+        {
+          "id": "177:1313",
+          "name": "Mobile / faq"
+        },
+        {
+          "id": "177:1312",
+          "name": "Mobile / support"
+        },
+        {
+          "id": "177:1311",
+          "name": "Mobile / about"
+        },
+        {
+          "id": "177:1310",
+          "name": "Mobile / bookings"
+        },
+        {
+          "id": "177:1309",
+          "name": "Mobile / settings"
+        },
+        {
+          "id": "177:1308",
+          "name": "Mobile / notifications"
+        },
+        {
+          "id": "177:1307",
+          "name": "Mobile / favorites"
+        },
+        {
+          "id": "177:1306",
+          "name": "Mobile / resetPassword"
+        },
+        {
+          "id": "177:1305",
+          "name": "Mobile / otp"
+        },
+        {
+          "id": "177:1304",
+          "name": "Mobile / forgot"
+        },
+        {
+          "id": "177:1303",
+          "name": "Mobile / register"
+        },
+        {
+          "id": "177:1302",
+          "name": "Mobile / login"
+        },
+        {
+          "id": "177:1301",
+          "name": "Mobile / bookingDetails"
+        },
+        {
+          "id": "177:1300",
+          "name": "Mobile / paymentSuccess"
+        },
+        {
+          "id": "177:1299",
+          "name": "Mobile / checkout"
+        },
+        {
+          "id": "177:1298",
+          "name": "Mobile / rooms"
+        },
+        {
+          "id": "177:1297",
+          "name": "Mobile / hotelDetail"
+        },
+        {
+          "id": "177:1296",
+          "name": "Mobile / activityDetail"
+        },
+        {
+          "id": "177:1295",
+          "name": "Mobile / destinationDetail"
+        },
+        {
+          "id": "177:1294",
+          "name": "Mobile / tripDetails"
+        },
+        {
+          "id": "177:1293",
+          "name": "Mobile / trips"
+        },
+        {
+          "id": "177:1292",
+          "name": "Mobile / destinations"
+        },
+        {
+          "id": "177:1291",
+          "name": "Mobile / hotels"
+        },
+        {
+          "id": "177:1290",
+          "name": "Mobile / activities"
+        },
+        {
+          "id": "177:1289",
+          "name": "Mobile / profile"
+        },
+        {
+          "id": "177:1288",
+          "name": "Mobile / planResult"
+        },
+        {
+          "id": "177:1287",
+          "name": "Mobile / planner"
+        },
+        {
+          "id": "177:1286",
+          "name": "Mobile / home"
+        }
+      ]
+    },
+    "Provider Mobile": {
+      "portal": "Provider Mobile",
+      "rows": [
+        {
+          "id": "244:12499",
+          "name": "Travora Section / Shared • Navigation & Help"
+        },
+        {
+          "id": "244:12498",
+          "name": "Travora Section / Transport & Delivery • Fleet & Dispatch"
+        },
+        {
+          "id": "244:12497",
+          "name": "Travora Section / Guides • Profile & Availability"
+        },
+        {
+          "id": "244:12496",
+          "name": "Travora Section / Restaurants • Tables & Menu"
+        },
+        {
+          "id": "244:12495",
+          "name": "Travora Section / Partners • Onboarding, Team & Finance"
+        },
+        {
+          "id": "244:12494",
+          "name": "Travora Section / Hotels • Rooms & Bookings"
+        },
+        {
+          "id": "233:12149",
+          "name": "Travora / platform.notifications"
+        },
+        {
+          "id": "233:12125",
+          "name": "Travora / platform.helpSent"
+        },
+        {
+          "id": "233:12084",
+          "name": "Travora / platform.help"
+        },
+        {
+          "id": "233:12060",
+          "name": "Travora / platform.saved"
+        },
+        {
+          "id": "233:12014",
+          "name": "Travora / platform.portal"
+        },
+        {
+          "id": "232:8771",
+          "name": "Travora / provider.transportFinance"
+        },
+        {
+          "id": "232:7872",
+          "name": "Travora / provider.deliveryOrderDetails"
+        },
+        {
+          "id": "232:7811",
+          "name": "Travora / provider.transportBookingDetails"
+        },
+        {
+          "id": "231:8853",
+          "name": "Travora / provider.transportDispatch"
+        },
+        {
+          "id": "231:8768",
+          "name": "Travora / provider.transportDriverEdit"
+        },
+        {
+          "id": "231:8714",
+          "name": "Travora / provider.transportFleet"
+        },
+        {
+          "id": "231:8645",
+          "name": "Travora / provider.transportDashboard"
+        },
+        {
+          "id": "232:8713",
+          "name": "Travora / provider.guideFinance"
+        },
+        {
+          "id": "231:2494",
+          "name": "Travora / provider.guideBookingDetails"
+        },
+        {
+          "id": "231:2423",
+          "name": "Travora / provider.guideTours"
+        },
+        {
+          "id": "231:2351",
+          "name": "Travora / provider.guideAvailability"
+        },
+        {
+          "id": "231:2280",
+          "name": "Travora / provider.guideProfile"
+        },
+        {
+          "id": "231:897",
+          "name": "Travora / provider.guideDashboard"
+        },
+        {
+          "id": "232:8651",
+          "name": "Travora / provider.restaurantFinance"
+        },
+        {
+          "id": "231:838",
+          "name": "Travora / provider.restaurantPreparing"
+        },
+        {
+          "id": "231:772",
+          "name": "Travora / provider.restaurantOrderDetails"
+        },
+        {
+          "id": "231:719",
+          "name": "Travora / provider.restaurantOrders"
+        },
+        {
+          "id": "230:7460",
+          "name": "Travora / provider.restaurantReservation"
+        },
+        {
+          "id": "230:7375",
+          "name": "Travora / provider.restaurantAvailability"
+        },
+        {
+          "id": "230:7286",
+          "name": "Travora / provider.restaurantMenuEdit"
+        },
+        {
+          "id": "230:7230",
+          "name": "Travora / provider.restaurantMenu"
+        },
+        {
+          "id": "230:6895",
+          "name": "Travora / provider.restaurantDashboard"
+        },
+        {
+          "id": "232:8284",
+          "name": "Travora / provider.providerReviews"
+        },
+        {
+          "id": "232:8216",
+          "name": "Travora / provider.providerPayout"
+        },
+        {
+          "id": "232:8134",
+          "name": "Travora / provider.providerFinance"
+        },
+        {
+          "id": "232:8058",
+          "name": "Travora / provider.providerSettings"
+        },
+        {
+          "id": "232:7992",
+          "name": "Travora / provider.providerInvite"
+        },
+        {
+          "id": "232:7934",
+          "name": "Travora / provider.providerTeam"
+        },
+        {
+          "id": "230:6376",
+          "name": "Travora / provider.providerApplication"
+        },
+        {
+          "id": "230:6311",
+          "name": "Travora / provider.providerDocuments"
+        },
+        {
+          "id": "230:6251",
+          "name": "Travora / provider.providerJoin"
+        },
+        {
+          "id": "230:6193",
+          "name": "Travora / provider.providerHub"
+        },
+        {
+          "id": "230:6837",
+          "name": "Travora / provider.hotelCheckin"
+        },
+        {
+          "id": "230:6763",
+          "name": "Travora / provider.hotelBookingDetails"
+        },
+        {
+          "id": "230:6709",
+          "name": "Travora / provider.hotelBookings"
+        },
+        {
+          "id": "227:525",
+          "name": "Travora / provider.hotelCalendar"
+        },
+        {
+          "id": "227:434",
+          "name": "Travora / provider.hotelRoomEdit"
+        },
+        {
+          "id": "227:376",
+          "name": "Travora / provider.hotelRooms"
+        },
+        {
+          "id": "227:300",
+          "name": "Travora / provider.hotelDashboard"
+        }
+      ]
+    },
+    "Driver Mobile": {
+      "portal": "Driver Mobile",
+      "rows": [
+        {
+          "id": "244:14566",
+          "name": "Travora Section / Shared • Navigation & Help"
+        },
+        {
+          "id": "244:14565",
+          "name": "Travora Section / Transport • Pickup & Arrival"
+        },
+        {
+          "id": "244:14564",
+          "name": "Travora Section / Driver • Jobs, Delivery & Account"
+        },
+        {
+          "id": "233:12499",
+          "name": "Travora / platform.notifications"
+        },
+        {
+          "id": "233:12475",
+          "name": "Travora / platform.helpSent"
+        },
+        {
+          "id": "233:12435",
+          "name": "Travora / platform.help"
+        },
+        {
+          "id": "233:12411",
+          "name": "Travora / platform.saved"
+        },
+        {
+          "id": "233:12365",
+          "name": "Travora / platform.portal"
+        },
+        {
+          "id": "236:15535",
+          "name": "Travora / driver.transportCompleted"
+        },
+        {
+          "id": "236:15185",
+          "name": "Travora / driver.transportRoute"
+        },
+        {
+          "id": "236:14843",
+          "name": "Travora / driver.transportPickup"
+        },
+        {
+          "id": "235:13345",
+          "name": "Travora / driver.transportDetails"
+        },
+        {
+          "id": "235:13288",
+          "name": "Travora / driver.proofError"
+        },
+        {
+          "id": "235:13213",
+          "name": "Travora / driver.profile"
+        },
+        {
+          "id": "235:13138",
+          "name": "Travora / driver.earnings"
+        },
+        {
+          "id": "233:11776",
+          "name": "Travora / driver.history"
+        },
+        {
+          "id": "233:11709",
+          "name": "Travora / driver.completed"
+        },
+        {
+          "id": "233:11639",
+          "name": "Travora / driver.deliveryProof"
+        },
+        {
+          "id": "233:11302",
+          "name": "Travora / driver.dropoffRoute"
+        },
+        {
+          "id": "232:11622",
+          "name": "Travora / driver.pickupProof"
+        },
+        {
+          "id": "232:11292",
+          "name": "Travora / driver.pickupRoute"
+        },
+        {
+          "id": "232:10954",
+          "name": "Travora / driver.jobDetails"
+        },
+        {
+          "id": "232:10899",
+          "name": "Travora / driver.jobs"
+        }
+      ]
+    },
+    "Admin Mobile": {
+      "portal": "Admin Mobile",
+      "rows": [
+        {
+          "id": "244:15257",
+          "name": "Travora Section / Shared • Navigation & Help"
+        },
+        {
+          "id": "244:15256",
+          "name": "Travora Section / Finance • Commissions, Settlements & Payouts"
+        },
+        {
+          "id": "244:15255",
+          "name": "Travora Section / Bookings • Service & Resolution"
+        },
+        {
+          "id": "244:15254",
+          "name": "Travora Section / Partners • Review & Access"
+        },
+        {
+          "id": "244:15253",
+          "name": "Travora Section / Admin • Overview, Content & Reports"
+        },
+        {
+          "id": "233:12589",
+          "name": "Travora / platform.notifications"
+        },
+        {
+          "id": "233:12565",
+          "name": "Travora / platform.helpSent"
+        },
+        {
+          "id": "233:12525",
+          "name": "Travora / platform.help"
+        },
+        {
+          "id": "231:9466",
+          "name": "Travora / platform.saved"
+        },
+        {
+          "id": "231:9382",
+          "name": "Travora / platform.services"
+        },
+        {
+          "id": "231:9336",
+          "name": "Travora / platform.portal"
+        },
+        {
+          "id": "231:8441",
+          "name": "Travora / admin.payoutHistory"
+        },
+        {
+          "id": "231:8385",
+          "name": "Travora / admin.payoutRequested"
+        },
+        {
+          "id": "231:7497",
+          "name": "Travora / admin.payout"
+        },
+        {
+          "id": "231:7443",
+          "name": "Travora / admin.payouts"
+        },
+        {
+          "id": "231:7374",
+          "name": "Travora / admin.settlement"
+        },
+        {
+          "id": "231:7309",
+          "name": "Travora / admin.settlements"
+        },
+        {
+          "id": "230:6609",
+          "name": "Travora / admin.commissions"
+        },
+        {
+          "id": "230:6553",
+          "name": "Travora / admin.disputeResolved"
+        },
+        {
+          "id": "230:6487",
+          "name": "Travora / admin.dispute"
+        },
+        {
+          "id": "230:6433",
+          "name": "Travora / admin.disputes"
+        },
+        {
+          "id": "230:1015",
+          "name": "Travora / admin.booking"
+        },
+        {
+          "id": "230:953",
+          "name": "Travora / admin.bookings"
+        },
+        {
+          "id": "230:892",
+          "name": "Travora / admin.users"
+        },
+        {
+          "id": "230:836",
+          "name": "Travora / admin.applicationNeedsInfo"
+        },
+        {
+          "id": "229:5404",
+          "name": "Travora / admin.applicationApproved"
+        },
+        {
+          "id": "229:5312",
+          "name": "Travora / admin.application"
+        },
+        {
+          "id": "229:5251",
+          "name": "Travora / admin.providers"
+        },
+        {
+          "id": "231:9244",
+          "name": "Travora / admin.settings"
+        },
+        {
+          "id": "231:9182",
+          "name": "Travora / admin.audit"
+        },
+        {
+          "id": "231:8564",
+          "name": "Travora / admin.catalog"
+        },
+        {
+          "id": "231:8495",
+          "name": "Travora / admin.reports"
+        },
+        {
+          "id": "229:5161",
+          "name": "Travora / admin.overview"
+        }
+      ]
+    }
+  }
+}

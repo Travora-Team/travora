@@ -1,0 +1,37 @@
+[
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/brand-3d-calender.png",
+    "original": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/3d-calender-dynamic-color.png",
+    "targetBrandColor": "#0099FF",
+    "edit": "Selective HSV recolor of existing warm material, preserving rendered luminance and transparency",
+    "license": "CC0 1.0 Universal"
+  },
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/brand-3d-puzzle.png",
+    "original": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/3d-puzzle-dynamic-color.png",
+    "targetBrandColor": "#0099FF",
+    "edit": "Selective HSV recolor of existing warm material, preserving rendered luminance and transparency",
+    "license": "CC0 1.0 Universal"
+  },
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/brand-3d-mobile.png",
+    "original": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/3d-mobile-dynamic-color.png",
+    "targetBrandColor": "#00C8A8",
+    "edit": "Selective HSV recolor of existing warm material, preserving rendered luminance and transparency",
+    "license": "CC0 1.0 Universal"
+  },
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/brand-3d-travel.png",
+    "original": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/3d-travel-dynamic-color.png",
+    "targetBrandColor": "#00C8A8",
+    "edit": "Selective HSV recolor of existing warm material, preserving rendered luminance and transparency",
+    "license": "CC0 1.0 Universal"
+  },
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/brand-3d-map-pin.png",
+    "original": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/3d-map-pin-dynamic-color.png",
+    "targetBrandColor": "#FF8A00",
+    "edit": "Selective HSV recolor of existing warm material, preserving rendered luminance and transparency",
+    "license": "CC0 1.0 Universal"
+  }
+]

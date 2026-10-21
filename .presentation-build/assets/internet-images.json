@@ -1,0 +1,62 @@
+[
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-build/assets/internet-giza-panorama.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:All_pyramids_of_Giza_panorama_2.jpg",
+    "directUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d6/All_pyramids_of_Giza_panorama_2.jpg",
+    "photographer": "kallerna",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "subject": "Panorama of Giza pyramids",
+    "width": 8000,
+    "height": 2720,
+    "cropAdvice": "Extra-wide landscape, preserve the three pyramids; suitable for a wide horizontal band."
+  },
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-build/assets/internet-giza-desert.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Pyramids_from_Giza.jpg",
+    "directUrl": "https://upload.wikimedia.org/wikipedia/commons/f/fa/Pyramids_from_Giza.jpg",
+    "photographer": "Simon Matzinger",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "subject": "Giza pyramids across desert",
+    "width": 4033,
+    "height": 1523,
+    "cropAdvice": "Wide landscape, main pyramids toward the center; suitable cover split or panoramic band."
+  },
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-build/assets/internet-luxor-night.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Luxor_Temple_at_night,_Luxor,_Egypt.jpg",
+    "directUrl": "https://upload.wikimedia.org/wikipedia/commons/6/68/Luxor_Temple_at_night%2C_Luxor%2C_Egypt.jpg",
+    "photographer": "Vyacheslav Argenberg",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "subject": "Illuminated Luxor Temple",
+    "width": 3072,
+    "height": 2048,
+    "cropAdvice": "Landscape 3:2, retain main temple and obelisk; center or right crop."
+  },
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-build/assets/internet-sharm-beach.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Beach_Gazebo_at_Ras_Um_Sid_Bay.jpg",
+    "directUrl": "https://upload.wikimedia.org/wikipedia/commons/5/5a/Beach_Gazebo_at_Ras_Um_Sid_Bay.jpg",
+    "photographer": "Serhio Magpie",
+    "license": "CC BY 4.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by/4.0",
+    "subject": "Reef Oasis Beach Resort, Sharm el-Sheikh",
+    "width": 4928,
+    "height": 3264,
+    "cropAdvice": "Landscape 3:2, keep gazebo and sea; suitable image pane with blue water."
+  },
+  {
+    "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-build/assets/internet-cairo-nile-sunset.jpg",
+    "sourcePage": "https://commons.wikimedia.org/wiki/File:Sunset_over_the_Nile.jpg",
+    "directUrl": "https://upload.wikimedia.org/wikipedia/commons/0/0e/Sunset_over_the_Nile.jpg",
+    "photographer": "Amkwi2014",
+    "license": "CC BY-SA 3.0",
+    "licenseUrl": "https://creativecommons.org/licenses/by-sa/3.0",
+    "subject": "Small boats sailing on Nile at sunset in Cairo",
+    "width": 2000,
+    "height": 1331,
+    "cropAdvice": "Landscape 3:2; retain boat silhouettes and sunset horizon."
+  }
+]

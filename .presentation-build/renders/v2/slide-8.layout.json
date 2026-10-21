@@ -1,0 +1,10 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/d58da3","index":7,"layout":{"id":"ly/gn21wjih","name":"Blank"},"backgroundColor":"rgba(255,255,255,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/ri9ona5c","kind":"textbox","position":{"left":72,"top":45,"width":1100,"height":30},"text":"TECHNOLOGY","style":{"fontSize":18,"typeface":"Arial","color":"#0099FF","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/cji5gf6x","kind":"textbox","position":{"left":72,"top":89,"width":1110,"height":66},"text":"Tools","style":{"fontSize":48,"typeface":"Avenir Next","color":"#0A2854","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/dkr6pkni","kind":"textbox","position":{"left":74,"top":165,"width":1127,"height":38},"text":"Shared services for web and mobile clients.","style":{"fontSize":25,"typeface":"Arial","color":"#526275","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"tb/7a9greds","kind":"table","position":{"left":72,"top":225,"width":1136,"height":381},"text":"AREA\tTECHNOLOGY\nDesign\tFigma\nWeb\tReact, Vite, React Router, Tailwind CSS\nMobile\tFlutter, Dart\nBackend\tNode.js, Express.js\nDatabase\tPostgreSQL, node-postgres\nAuthentication\tArgon2id, cookie sessions\nTesting\tnode:test, ESLint\nVersion control\tGit","rows":9,"cols":2},
+{"id":"sh/3ep4ja5g","kind":"textbox","position":{"left":72,"top":659,"width":150,"height":26},"text":"TRAVORA","style":{"fontSize":18,"typeface":"Avenir Next","color":"#526275","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/4fy5cf6l","kind":"textbox","position":{"left":246,"top":661,"width":470,"height":25},"text":"GRADUATION PROJECT","style":{"fontSize":16,"typeface":"Arial","color":"#526275","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/pg76l0n6","kind":"textbox","position":{"left":1158,"top":655,"width":50,"height":30},"text":"08","style":{"fontSize":22,"typeface":"Arial","color":"#0099FF","bold":true,"alignment":"right"},"geometry":"rect","lineWidth":0}
+]}

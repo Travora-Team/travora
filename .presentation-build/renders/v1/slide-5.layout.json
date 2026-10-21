@@ -1,0 +1,12 @@
+{"schema":"openai.presentation.layout/v5","unit":"px","slide":{"id":"sl/xyk713","index":4,"layout":{"id":"ly/18repgru","name":"Blank"},"backgroundColor":"rgba(248,250,252,1)","position":{"left":0,"top":0,"width":1280,"height":720}},
+"elements":[
+{"id":"sh/dkbexkvq","kind":"textbox","position":{"left":72,"top":45,"width":1100,"height":30},"text":"TRAVEL CONTEXT","style":{"fontSize":18,"typeface":"Arial","color":"#0099FF","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/qhkfm5cz","kind":"textbox","position":{"left":72,"top":89,"width":1110,"height":66},"text":"Introduction","style":{"fontSize":48,"typeface":"Avenir Next","color":"#0A2854","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"im/ets7mloz","kind":"image","position":{"left":675,"top":176,"width":533,"height":428},"fit":"cover","alt":"Reef Oasis Beach Resort, Sharm el-Sheikh"},
+{"id":"sh/0n2xszu1","kind":"textbox","position":{"left":72,"top":194,"width":530,"height":57},"text":"Egypt first","style":{"fontSize":36,"typeface":"Avenir Next","color":"#0099FF","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/18ve14vm","kind":"textbox","position":{"left":74,"top":273,"width":539,"height":173},"text":"Travelers coordinate destinations, accommodation, transport, activities, and spending within a limited schedule.","style":{"fontSize":29,"typeface":"Arial","color":"#0A2854","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/elkfqpcb","kind":"textbox","position":{"left":74,"top":466,"width":538,"height":140},"text":"A React web platform and a Flutter app will share backend services for planning before departure and accessing trip details during travel.","style":{"fontSize":25,"typeface":"Arial","color":"#526275","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/zmtwzudw","kind":"textbox","position":{"left":72,"top":659,"width":150,"height":26},"text":"TRAVORA","style":{"fontSize":18,"typeface":"Avenir Next","color":"#526275","bold":true,"alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/grixwvux","kind":"textbox","position":{"left":246,"top":661,"width":470,"height":25},"text":"GRADUATION PROJECT","style":{"fontSize":16,"typeface":"Arial","color":"#526275","alignment":"left"},"geometry":"rect","lineWidth":0},
+{"id":"sh/hcrep0vi","kind":"textbox","position":{"left":1158,"top":655,"width":50,"height":30},"text":"05","style":{"fontSize":22,"typeface":"Arial","color":"#0099FF","bold":true,"alignment":"right"},"geometry":"rect","lineWidth":0}
+]}

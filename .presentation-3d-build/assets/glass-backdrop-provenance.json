@@ -1,0 +1,14 @@
+{
+  "file": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/glass-backdrop.png",
+  "source": "/Users/yousiffares/Desktop/smart-tourism-platform/.presentation-3d-build/assets/hero-egypt-diorama.jpg",
+  "editType": "Normal bitmap photo editing only",
+  "operations": [
+    "Cover fit/crop to 1280\u00d7720 at vertical center 0.58",
+    "Gaussian blur radius 76 pixels",
+    "Luminance-preserving gradient-map grade to deep navy, ocean blue, and turquoise",
+    "Left-to-right exposure grade to protect white title readability",
+    "Subtle preservation of source sandstone warmth in bright right region"
+  ],
+  "newArtworkCreated": false,
+  "license": "CC0 (inherits source asset license)"
+}

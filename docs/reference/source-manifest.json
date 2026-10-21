@@ -1,0 +1,12 @@
+[
+  {
+    "source": "/Users/yousiffares/Downloads/travora-schema.sql",
+    "copy": "/Users/yousiffares/Desktop/smart-tourism-platform/docs/reference/travora-schema.sql",
+    "sha256": "9bb8aae1a7e79841fd13b80a38cdbd5d231ab9bd82d773145315540ff74370fe"
+  },
+  {
+    "source": "/Users/yousiffares/Downloads/Travora_ERD (2).html",
+    "copy": "/Users/yousiffares/Desktop/smart-tourism-platform/docs/reference/travora-erd.html",
+    "sha256": "45561f9e03372245ba46b2eceb962c98bac56fd712f8011a0c14e6cc42c6784c"
+  }
+]
