@@ -1,0 +1,425 @@
+{
+  "info": {
+    "name": "Travora — Local Authentication",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "description": "Run requests 01–11 in order, with one iteration. Base URL defaults to http://127.0.0.1:3000. No environment is required. Authentication uses the Postman cookie jar, not a Bearer token. Keep cookies enabled and use the same hostname. Request 02 generates a new demo email every time it is sent and creates one traveler in the local database. Test credentials are examples only. The default registration limit is 5 requests per hour per IP, including rejected requests; a full run uses 4. Login is limited to 10 requests per 15 minutes. Do not repeatedly run this collection against the same running server within these windows."
+  },
+  "auth": {
+    "type": "noauth"
+  },
+  "variable": [
+    {
+      "key": "baseUrl",
+      "value": "http://127.0.0.1:3000",
+      "type": "string"
+    },
+    {
+      "key": "name",
+      "value": "Travora Test",
+      "type": "string"
+    },
+    {
+      "key": "email",
+      "value": "",
+      "type": "string"
+    },
+    {
+      "key": "password",
+      "value": "Travora@2026Test!",
+      "type": "string"
+    }
+  ],
+  "item": [
+    {
+      "name": "01 — Health",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/health",
+        "description": ""
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 200\", function () { pm.response.to.have.status(200); });",
+              "pm.test(\"PostgreSQL is connected\", function () { pm.expect(pm.response.json().data.database).to.eql(\"connected\"); });"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "02 — Register a new traveler",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/api/auth/register",
+        "description": "Creates a new demo traveler and signs in automatically. A unique email is generated before each send and retained for the remaining requests.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"{{name}}\",\n  \"email\": \"{{email}}\",\n  \"password\": \"{{password}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "prerequest",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.collectionVariables.set(\"email\", \"travora.postman.\" + pm.variables.replaceIn(\"{{$guid}}\") + \"@example.com\");"
+            ]
+          }
+        },
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 201\", function () { pm.response.to.have.status(201); });",
+              "pm.test(\"Response contains the registered traveler\", function () {",
+              "  const body = pm.response.json();",
+              "  pm.expect(body.status).to.eql(\"success\");",
+              "  pm.expect(body.data.user.email).to.eql(pm.collectionVariables.get(\"email\"));",
+              "  pm.expect(body.data.user.role).to.eql(\"traveler\");",
+              "  pm.expect(body.data.user.id).to.be.a(\"string\");",
+              "  pm.expect(body.data.user).not.to.have.property(\"password\");",
+              "  pm.expect(body.data.user).not.to.have.property(\"passwordHash\");",
+              "});",
+              "pm.test(\"Session cookie issued\", function () { pm.expect(pm.response.headers.get(\"Set-Cookie\")).to.include(\"travora_session=\"); });"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "03 — Me after register",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/auth/me",
+        "description": "Postman sends the session cookie from registration automatically."
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 200\", function () { pm.response.to.have.status(200); });",
+              "pm.test(\"Response contains the registered traveler\", function () {",
+              "  const body = pm.response.json();",
+              "  pm.expect(body.status).to.eql(\"success\");",
+              "  pm.expect(body.data.user.email).to.eql(pm.collectionVariables.get(\"email\"));",
+              "  pm.expect(body.data.user.role).to.eql(\"traveler\");",
+              "  pm.expect(body.data.user.id).to.be.a(\"string\");",
+              "  pm.expect(body.data.user).not.to.have.property(\"password\");",
+              "  pm.expect(body.data.user).not.to.have.property(\"passwordHash\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "04 — Login",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/api/auth/login",
+        "description": "",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"{{email}}\",\n  \"password\": \"{{password}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 200\", function () { pm.response.to.have.status(200); });",
+              "pm.test(\"Response contains the registered traveler\", function () {",
+              "  const body = pm.response.json();",
+              "  pm.expect(body.status).to.eql(\"success\");",
+              "  pm.expect(body.data.user.email).to.eql(pm.collectionVariables.get(\"email\"));",
+              "  pm.expect(body.data.user.role).to.eql(\"traveler\");",
+              "  pm.expect(body.data.user.id).to.be.a(\"string\");",
+              "  pm.expect(body.data.user).not.to.have.property(\"password\");",
+              "  pm.expect(body.data.user).not.to.have.property(\"passwordHash\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "05 — Me after login",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/auth/me",
+        "description": ""
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 200\", function () { pm.response.to.have.status(200); });",
+              "pm.test(\"Response contains the registered traveler\", function () {",
+              "  const body = pm.response.json();",
+              "  pm.expect(body.status).to.eql(\"success\");",
+              "  pm.expect(body.data.user.email).to.eql(pm.collectionVariables.get(\"email\"));",
+              "  pm.expect(body.data.user.role).to.eql(\"traveler\");",
+              "  pm.expect(body.data.user.id).to.be.a(\"string\");",
+              "  pm.expect(body.data.user).not.to.have.property(\"password\");",
+              "  pm.expect(body.data.user).not.to.have.property(\"passwordHash\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "06 — Logout",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/api/auth/logout",
+        "description": "JSON Content-Type is required even for logout. A 204 response intentionally has no body.",
+        "body": {
+          "mode": "raw",
+          "raw": "{}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 204\", function () { pm.response.to.have.status(204); });",
+              "pm.test(\"Logout response has no body\", function () { pm.expect(pm.response.text()).to.eql(\"\"); });"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "07 — Me after logout is rejected",
+      "request": {
+        "method": "GET",
+        "header": [],
+        "url": "{{baseUrl}}/api/auth/me",
+        "description": ""
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 401\", function () { pm.response.to.have.status(401); });",
+              "pm.test(\"Expected API error\", function () {",
+              "  const body = pm.response.json();",
+              "  pm.expect(body.status).to.eql(\"error\");",
+              "  pm.expect(body.error.code).to.eql(\"UNAUTHENTICATED\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "08 — Wrong password is rejected",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/api/auth/login",
+        "description": "",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"email\": \"{{email}}\",\n  \"password\": \"Incorrect@2026Test!\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 401\", function () { pm.response.to.have.status(401); });",
+              "pm.test(\"Expected API error\", function () {",
+              "  const body = pm.response.json();",
+              "  pm.expect(body.status).to.eql(\"error\");",
+              "  pm.expect(body.error.code).to.eql(\"INVALID_CREDENTIALS\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "09 — Duplicate email is rejected",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/api/auth/register",
+        "description": "Uses the email created by request 02; do not rerun request 02 between these steps.",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"{{name}}\",\n  \"email\": \"{{email}}\",\n  \"password\": \"{{password}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 409\", function () { pm.response.to.have.status(409); });",
+              "pm.test(\"Expected API error\", function () {",
+              "  const body = pm.response.json();",
+              "  pm.expect(body.status).to.eql(\"error\");",
+              "  pm.expect(body.error.code).to.eql(\"EMAIL_ALREADY_EXISTS\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "10 — Short password is rejected",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/api/auth/register",
+        "description": "",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"{{name}}\",\n  \"email\": \"{{email}}\",\n  \"password\": \"12345\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 400\", function () { pm.response.to.have.status(400); });",
+              "pm.test(\"Expected API error\", function () {",
+              "  const body = pm.response.json();",
+              "  pm.expect(body.status).to.eql(\"error\");",
+              "  pm.expect(body.error.code).to.eql(\"VALIDATION_ERROR\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "name": "11 — Invalid email is rejected",
+      "request": {
+        "method": "POST",
+        "header": [
+          {
+            "key": "Content-Type",
+            "value": "application/json"
+          }
+        ],
+        "url": "{{baseUrl}}/api/auth/register",
+        "description": "",
+        "body": {
+          "mode": "raw",
+          "raw": "{\n  \"name\": \"{{name}}\",\n  \"email\": \"invalid-email\",\n  \"password\": \"{{password}}\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        }
+      },
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "type": "text/javascript",
+            "exec": [
+              "pm.test(\"HTTP 400\", function () { pm.response.to.have.status(400); });",
+              "pm.test(\"Expected API error\", function () {",
+              "  const body = pm.response.json();",
+              "  pm.expect(body.status).to.eql(\"error\");",
+              "  pm.expect(body.error.code).to.eql(\"VALIDATION_ERROR\");",
+              "});"
+            ]
+          }
+        }
+      ]
+    }
+  ]
+}

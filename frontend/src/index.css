@@ -1,0 +1,111 @@
+@import url('https://googleapis.com');
+@import "tailwindcss";
+
+@theme {
+  /* Primary (Ocean Blue) */
+  --color-primary-light: #EEF8FF;
+  --color-primary-hover: #0088E5;
+  --color-primary: #0099FF;
+  --color-primary-active: #0077CC;
+  --color-primary-dark: #0065AD;
+
+  /* Secondary (Turquoise) */
+  --color-secondary-light: #E8FFFB;
+  --color-secondary-hover: #00B596;
+  --color-secondary: #00C8A8;
+  --color-secondary-active: #009D83;
+  --color-secondary-dark: #00806B;
+
+  /* Accent (Sunset Orange) */
+  --color-accent-light: #FFF5EB;
+  --color-accent-hover: #E67B00;
+  --color-accent: #FF8A00;
+  --color-accent-active: #CC6D00;
+  --color-accent-dark: #A85A00;
+
+  /* Backgrounds */
+  --color-background-app: #F8FAFC;
+  --color-background-surface: #FFFFFF;
+
+  /* Text Colors */
+  --color-content-primary: #0F172A;
+  --color-content-secondary: #475569;
+  --color-content-muted: #94A3B8;
+
+  /* Borders */
+  --color-divider: #E2E8F0;
+  --color-divider-hover: #CBD5E1;
+
+  /* Status Colors */
+  --color-status-success: #22C55E;
+  --color-status-warning: #F59E0B;
+  --color-status-error: #EF4444;
+  --color-status-info: #3B82F6;
+}
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    direction: rtl;
+    scroll-behavior: smooth;
+  }
+
+  html,
+  body,
+  #root {
+    width: 100%;
+    min-height: 100%;
+  }
+
+  body {
+    min-width: 320px;
+    min-height: 100vh;
+    margin: 0;
+    overflow-x: hidden;
+    color: #0F172A;
+    background: #F8FAFC;
+    font-family: Arial, Tahoma, "Segoe UI", sans-serif;
+  }
+
+  button,
+  input,
+  select {
+    font: inherit;
+  }
+
+  input,
+  select {
+    min-width: 0;
+  }
+
+  button {
+    cursor: pointer;
+  }
+
+  ::selection {
+    color: #FFFFFF;
+    background: #0099FF;
+  }
+}
+
+@layer utilities {
+  .page-shell {
+    width: min(100% - 2rem, 1280px);
+    margin-inline: auto;
+  }
+
+  @media (min-width: 640px) {
+    .page-shell {
+      width: min(100% - 3rem, 1280px);
+    }
+  }
+
+  .soft-shadow {
+    box-shadow: 0 18px 50px rgba(15, 23, 42, 0.08);
+  }
+}
